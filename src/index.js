@@ -16,5 +16,6 @@ ReactDom.render(
   <div>
     <p>Created by {fullName}</p>
     <p>copyright {date}</p>
-  </div>
+  </div>,
+  document.getElementById('root')
 )
